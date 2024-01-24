@@ -1,0 +1,12 @@
+.menu-titulo h1{
+  color: #ffff;
+  margin: 20px 30px;
+  font-size: 150px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-family: 'Segoe UI';
+  border-top: solid 2px #504d4d;
+  border-bottom: solid 2px #504d4d;
+}
