@@ -8,7 +8,7 @@ import { BigCardComponent } from '../../components/big-card/big-card.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [BigCardComponent, TituloComponent],
+  imports: [BigCardComponent, TituloComponent, SmallCardComponent, MenuComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
