@@ -1,0 +1,30 @@
+.container__content{
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.content__foto > img{
+  border: 5px solid rgb(167, 163, 163);
+  width: 500px;
+  height: 300px;
+  border-radius: 1%;
+  margin-top: 10px;
+}
+.content__descricao > p{
+  margin-top: 10px;
+  color: rgb(100, 98, 95);
+}
+
+.content__titulo > h1{
+  color: rgb(100, 98, 95);
+}
+
+.content__titulo > hr{
+  margin-top: -20px;
+  color: rgb(100, 98, 95);
+}

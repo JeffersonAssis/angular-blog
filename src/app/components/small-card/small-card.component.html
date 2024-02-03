@@ -3,21 +3,20 @@
 
     <div class="small-card__foto">
       <img
-        src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/2023/2023-11/angular-logo-1200-628.png?sfvrsn=bf64b1ee_3"
+        src={{photoCover}}
         height="230px" alt="">
     </div>
     <div class="small-card__texto">
       <div class="small-card__titulo">
-        <a href="#">
-          <h1>Nova Ver do Angular</h1>
+        <a [routerLink]="['content/',id]">
+          <h1>{{cardTitulo}}</h1>
         </a>
       </div>
       <div class="small-card__descricao">
-        <p>dLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non porta ipsum. Pellentesque facilisis
-          elit ac lorem efficitur rutrum nec et turpis. Curabitur tristique magna ut justo pellentesque, vel efficitur
-          eros bibendum. Etiam in dolor tincidunt, semper lorem at, euismod ligula. Donec quis elementum ipsum.</p>
+        <p>{{cardDescricao}}</p>
       </div>
     </div>
+
   </div>
-  <hr />
+
 </div>

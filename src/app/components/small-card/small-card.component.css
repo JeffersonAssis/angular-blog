@@ -19,8 +19,16 @@
   align-items: flex-start;
   margin-top: -5px;
   color:  rgb(100, 98, 95);
+  height: 40px;
+  overflow: hidden;
 }
 .small-card__descricao > p{
   height: 55px;
   overflow: hidden;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 }
+.container-small :first-child{
+ margin-top: -15px;
+}
+
